@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="921.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateAccountController">
+   <children>
+      <Label layoutX="61.0" layoutY="97.0" prefHeight="30.0" prefWidth="169.0" text="Account Name">
+         <font>
+            <Font name="Sylfaen" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTf" layoutX="346.0" layoutY="96.0" prefHeight="31.0" prefWidth="378.0" />
+      <Label fx:id="insName" layoutX="57.0" layoutY="314.0" text="Institution Name">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="stId" layoutX="60.0" layoutY="254.0" prefHeight="27.0" prefWidth="134.0" text="Student ID">
+         <font>
+            <Font name="Sylfaen" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="201.0" prefHeight="28.0" prefWidth="169.0" text="Current Balance">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="maxWith" layoutX="53.0" layoutY="254.0" text="Maximum Withdrow Limit">
+         <font>
+            <Font name="Sylfaen" size="24.0" />
+         </font></Label>
+      <Text layoutX="276.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Type">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Text>
+      <ComboBox fx:id="comb" layoutX="442.0" layoutY="20.0" onAction="#combAction" prefWidth="150.0" />
+      <TextField fx:id="nidTf" layoutX="346.0" layoutY="145.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField fx:id="balanceTf" layoutX="347.0" layoutY="199.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField fx:id="tradeLicensetf" layoutX="350.0" layoutY="253.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField fx:id="instNameTf" layoutX="352.0" layoutY="313.0" prefHeight="31.0" prefWidth="378.0" />
+      <Button layoutX="385.0" layoutY="549.0" mnemonicParsing="false" onAction="#save" prefHeight="31.0" prefWidth="90.0" text="Save" textFill="#1b1794">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="577.0" layoutY="549.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="90.0" text="Exit" textFill="#ff0707">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="62.0" layoutY="142.0" prefHeight="28.0" prefWidth="163.0" text="NID Number">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="trade" layoutX="55.0" layoutY="255.0" text="Trade Liscence">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="202.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" prefHeight="31.0" prefWidth="90.0" text="Home" textFill="#da2d2d">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="info" layoutX="424.0" layoutY="441.0" prefHeight="34.0" prefWidth="296.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Text layoutX="236.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#cd0000" layoutX="3.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASIA BANK ACCOUNT MANAGER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

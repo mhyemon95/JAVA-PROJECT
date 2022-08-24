@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AccountHolderTransaction">
+   <children>
+      <TextField fx:id="holderTf" layoutX="338.0" layoutY="254.0" promptText="Account Number" />
+      <TextField fx:id="tfnid" layoutX="80.0" layoutY="253.0" promptText="NID Number" />
+      <Button layoutX="210.0" layoutY="308.0" mnemonicParsing="false" onAction="#transactinHistory" text="Transaction History" textFill="#971eb9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ListView fx:id="lv" layoutX="53.0" layoutY="47.0" prefHeight="180.0" prefWidth="488.0" />
+      <Text fill="#cd0000" layoutX="2.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASIA BANK ACCOUNT MANAGER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="490.0" layoutY="350.0" mnemonicParsing="false" onAction="#goHome" prefHeight="31.0" prefWidth="90.0" text="Home" textFill="#da2d2d">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

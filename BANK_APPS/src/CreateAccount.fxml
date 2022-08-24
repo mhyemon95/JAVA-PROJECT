@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="921.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="37.0" layoutY="98.0" prefHeight="27.0" prefWidth="134.0" text="Account Name">
+         <font>
+            <Font name="Sylfaen" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="224.0" layoutY="96.0" prefHeight="31.0" prefWidth="378.0" />
+      <Label layoutX="37.0" layoutY="145.0" text="Institution Name">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="201.0" prefHeight="27.0" prefWidth="134.0" text="Account ID">
+         <font>
+            <Font name="Sylfaen" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="255.0" prefHeight="27.0" prefWidth="134.0" text="Current Balance">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="319.0" text="Maximum Withdrow Limit">
+         <font>
+            <Font name="Sylfaen" size="16.0" />
+         </font></Label>
+      <Text layoutX="148.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Type" />
+      <ComboBox layoutX="255.0" layoutY="22.0" prefWidth="150.0" />
+      <TextField layoutX="224.0" layoutY="140.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField layoutX="224.0" layoutY="199.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField layoutX="224.0" layoutY="253.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField layoutX="224.0" layoutY="313.0" prefHeight="31.0" prefWidth="378.0" />
+      <Button layoutX="385.0" layoutY="549.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="Save" textFill="#1b1794">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="577.0" layoutY="549.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="Exit" textFill="#ff0707">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="41.0" layoutY="374.0" text="NID Number">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="224.0" layoutY="368.0" prefHeight="31.0" prefWidth="378.0" />
+      <TextField layoutX="224.0" layoutY="422.0" prefHeight="31.0" prefWidth="378.0" />
+      <Label layoutX="41.0" layoutY="427.0" text="Trade Liscence">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="202.0" layoutY="549.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="Home" textFill="#da2d2d">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
